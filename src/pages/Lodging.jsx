@@ -1,6 +1,6 @@
 import React from "react";
 
-import hotel1 from "../images/bread1.png";
+import hotel1 from "../images/hotel1.png";
 import hotel2 from "../images/bread1.png";
 import house1 from "../images/house1.png";
 import house2 from "../images/house2.png";
