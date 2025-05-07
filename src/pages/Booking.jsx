@@ -16,8 +16,12 @@ const Booking = () => {
       <div className="about-info">
         <h1>About Taniti Island</h1>
         <span>
-          Explore the natural wonders and cultural heritage of Taniti with a
-          guided island tour.
+          Most tourists spend most of their time in Taniti City, which boasts
+          native architecture and nearby white, sandy beaches that encircle
+          Yellow Leaf Bay. Other popular activities include boat or bus tours of
+          the island, hikes in the rainforest, or visits to Taniti's active
+          volcano. Explore the natural wonders and cultural heritage of Taniti
+          with a guided island tour.
         </span>
 
         <button className="book-button tour-button">Book a Tour!</button>
