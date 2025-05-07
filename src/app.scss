@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+.layout .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(26, 79, 139);
+    color: white;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navbar ul {
+    margin: auto;
+}
+
+.navbar li {
+    display: flex;
+    align-items: center;
+}
+
+
+.content {
+    margin-top: 60px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: #1783f7;
+        text-decoration: underline;
+    }
+
+    &.active {
+        color: #3be649;
+    }
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+}
+
+.about h1 {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.about-info {
+    width: 50%;
+    margin: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about span {
+    font-size: 30px;
+    text-align: center;
+}
+
+.about .text-left {
+    text-align: left;
+}
+
+
+
+.lodging-row {
+    background-color: rgb(133, 220, 226);
+    display: flex;
+    padding: 20px 40px;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    height: 200px;
+    border-radius: 20px;
+
+    .left-container {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    .middle {
+        height: 100%;
+        align-items: left;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        // background-color: red;
+        font-size: 25px;
+        text-align: left;
+
+    }
+
+    .right {
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        // background-color: red;
+        font-size: 25px;
+
+        .book-button {
+            background-color: rgb(15, 81, 167);
+            padding: 10px;
+            width: fit-content;
+            color: white;
+            border-radius: 20px;
+            border-style: solid;
+            cursor: pointer;
+            // border: none;
+            font: inherit;
+        }
+
+                .book-button:hover {
+                    background-color: rgb(8, 44, 90);
+                    user-select: none;
+                }
+    }
+}
+
+// .first-row {
+//     margin-top: 120px
+// }
+
+.left img {
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.lodging {
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 120px
+}
