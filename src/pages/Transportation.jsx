@@ -10,11 +10,11 @@ const Transportation = () => {
           <img
             src={airplane}
             alt="Image of an airplane in Taniti Island."
-            height={"450px"}
+            height={"420px"}
           />
         </div>
         <div className="about-info">
-          <h1>Travelling to Taniti</h1>
+          <h1>Book a Tour</h1>
           <span className="text-left">
             Almost all visitors arrive to Taniti by air, though some arrive on a
             small cruise ship that docks in Yellow Leaf Bay for one night per
@@ -30,7 +30,7 @@ const Transportation = () => {
           <img
             src={bus}
             alt="Image of a bus in Taniti Island."
-            height={"450px"}
+            height={"420px"}
           />
         </div>
         <div className="about-info">

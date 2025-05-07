@@ -10,6 +10,7 @@ const About = () => {
           src={TanitiLandscape}
           alt="Image of Taniti Island."
           height={"450px"}
+          className="border-image"
         />
       </div>
       <div className="about-info">

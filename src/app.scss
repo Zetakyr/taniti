@@ -40,7 +40,7 @@ a {
     text-decoration: none;
 
     &:hover {
-        color: #1783f7;
+        color: #44b4ff;
         text-decoration: underline;
     }
 
@@ -121,25 +121,38 @@ a {
         // background-color: red;
         font-size: 25px;
 
-        .book-button {
-            background-color: rgb(15, 81, 167);
-            padding: 10px;
-            width: fit-content;
-            color: white;
-            border-radius: 20px;
-            border-style: solid;
-            cursor: pointer;
-            // border: none;
-            font: inherit;
-        }
-
-                .book-button:hover {
-                    background-color: rgb(8, 44, 90);
-                    user-select: none;
-                }
-    }
+       
 }
 
+
+ }
+
+  .book-button {
+      background-color: rgb(15, 81, 167);
+      padding: 10px;
+      width: fit-content;
+      color: white;
+      border-radius: 20px;
+      border-style: solid;
+      cursor: pointer;
+      // border: none;
+      font: inherit;
+  }
+
+  .book-button:hover {
+      background-color: rgb(8, 44, 90);
+      user-select: none;
+  }
+
+  .tour-button {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  .border-image, .card img{
+    border-radius: 20px;
+    border-style: solid;
+  }
 // .first-row {
 //     margin-top: 120px
 // }
@@ -156,4 +169,37 @@ a {
     display: flex;
     margin: auto;
     margin-top: 120px
+}
+
+.restaurant-section {
+    margin: 40px;
+        margin-top: 130px;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card {
+    background: #c6daff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-height: 150px;
+    /* or fit to content if preferred */
+    // justify-content: center;
+    align-items: center;
+    display: flex;
+
+    span {
+        margin-left: 20px;
+        font-size: 30px;
+    }
 }
