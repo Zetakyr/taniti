@@ -8,6 +8,16 @@ import house2 from "../images/house2.png";
 const Lodging = () => {
   return (
     <div style={{ marginBottom: "70px" }}>
+      <h1
+        style={{
+          textAlign: "center",
+          fontSize: "42px",
+          marginBottom: "-60px",
+          marginTop: "120px",
+        }}
+      >
+        Lodging
+      </h1>
       <span className="lodging">
         Taniti has a wide variety of lodging that ranges from an inexpensive
         hostel to one large, four-star resort. There are many small,

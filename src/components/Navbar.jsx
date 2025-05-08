@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ bottom }) => {
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${bottom ? "bottom" : ""}`}>
       <h2>
         <NavLink to="/">Taniti Island</NavLink>
       </h2>
@@ -15,7 +15,7 @@ const Navbar = () => {
         </li>
         <li style={{ marginRight: "20px" }}>
           <NavLink to="/transportation" activeclassname="active">
-            Transportation
+            Travel
           </NavLink>
         </li>
         <li style={{ marginRight: "20px" }}>

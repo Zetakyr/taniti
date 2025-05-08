@@ -5,6 +5,16 @@ import airplane from "../images/plane.png";
 const Transportation = () => {
   return (
     <div>
+      <h1
+        style={{
+          textAlign: "center",
+          fontSize: "42px",
+          marginBottom: "-60px",
+          marginTop: "120px",
+        }}
+      >
+        Travel
+      </h1>
       <div className="about">
         <div>
           <img
@@ -14,7 +24,7 @@ const Transportation = () => {
           />
         </div>
         <div className="about-info">
-          <h1>Book a Tour</h1>
+          <h1>Travelling to Taniti</h1>
           <span className="text-left">
             Almost all visitors arrive to Taniti by air, though some arrive on a
             small cruise ship that docks in Yellow Leaf Bay for one night per

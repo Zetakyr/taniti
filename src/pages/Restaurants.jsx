@@ -15,6 +15,16 @@ import sushi from "../images/sushi.png";
 const Restaurants = () => {
   return (
     <div>
+      <h1
+        style={{
+          textAlign: "center",
+          fontSize: "42px",
+          marginBottom: "-60px",
+          marginTop: "120px",
+        }}
+      >
+        Restaurants
+      </h1>
       <section class="restaurant-section">
         <h2>Fish and Rice Restaurants</h2>
         <div class="grid">
